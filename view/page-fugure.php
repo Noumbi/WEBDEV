@@ -52,7 +52,8 @@
             <input type='submit' value='envoyer' name='envoyer' class='put'>
         </form>
         <div class='phone'>
-           <?php 
+           <?php
+           $wwe=$_GET['id'];
             foreach($ap as $app){//foreach permet de parcourir un tableau pour recuperer ces valeurs et l'afficher sur la page
                 echo"<article class='art'>";
                 
@@ -60,8 +61,10 @@
              echo"<img src='../image/$app[fichier]'class='woo'>";
              echo"<div class='saad'>";
              echo"<a href='img-des.php?id_img=$app[id]'> $app[titre]</a>";
+             if($wwe==$app['id_user']){
              echo"<a href='./delete.php?id_delete=$app[id]' class='rr'> <i class='fa-solid fa-trash-can'></i></a>";
              echo"<a href='./update.php?id_update=$app[id]' class='rr'> <i class='fa-solid fa-pen'></i></a>";
+             }
              echo"</div>";
              echo"</article>";
              
