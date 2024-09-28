@@ -1,0 +1,12 @@
+.for{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+.end{
+    margin-top: 85px;
+    margin-left: 550px;
+}
+.in{
+    margin-top: 5px;
+}

@@ -1,0 +1,15 @@
+.dy{
+    margin-top: 111px;
+    margin-left: 566px;
+}
+.ec{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+.pla{
+    margin-top: 5px;
+}
+.pass{
+    margin: 0 0 5px 0;
+}

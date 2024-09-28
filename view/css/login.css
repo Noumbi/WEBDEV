@@ -1,0 +1,21 @@
+.bod{
+    margin: 87px 0 0 550px;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+.new{
+     margin-top: 5px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.yee{
+    margin-top: 15px;
+}
+.conn{
+    margin-top: 20px;
+}

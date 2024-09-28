@@ -1,0 +1,23 @@
+.art{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+}
+.saad{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin-top: 11px;
+}
+.sky{
+    position: absolute;
+    left: 18%;
+    top: 41%;
+    font-size: xx-large;
+}
+.weh {
+    margin-left: 35px;
+    width: 96%;
+    margin-top: 30px;
+    object-fit: cover;
+}
