@@ -34,10 +34,11 @@
     width: 86%;
     height: 189px;
 }
+
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
     /*    */
-}
+
 .phone{
     width: 352%;
     margin-left: 229px;
@@ -46,6 +47,7 @@
 .saad {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 86%;
     margin-top: 11px;
 }   
+}
