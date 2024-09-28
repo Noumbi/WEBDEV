@@ -1,5 +1,6 @@
 <html>
     <head>
+    <link rel="stylesheet" href="./css/img.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,8 +23,8 @@ $rrtt=font();
 </form>
     <?php
     foreach($over as $wwe){
-        echo"<img src='../image/$wwe[fichier]'>";
-        echo"<p>$wwe[description]</p>";
+        echo"<img src='../image/$wwe[fichier]' class='joan'>";
+        echo"<p class='allan'>$wwe[description]</p>";
        
         }
       foreach($rrtt as $apk){
