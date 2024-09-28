@@ -4,8 +4,14 @@
     margin-left: 85px;
     border-radius: 20px;
     height: 322px;
-    object-fit: cover;
+    object-fit: inherit;
 }
 .allan{
     margin-left: 117px;
+}
+.wpp{
+    border-radius: 19px;
+    margin-left: 33px;
+    height: 170px;
+    width: 17%;
 }
