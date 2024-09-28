@@ -21,7 +21,7 @@
             <img src='./photo.webp' class='fre'>
             <nav class='na'>
                 <ul class='wq'>
-                    <li class='boos'>
+                    <li class='boos youpi'>
                         home
                     </li>
                     <li class='boos'>

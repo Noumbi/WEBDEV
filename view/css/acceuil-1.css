@@ -5,9 +5,15 @@
 }
 .saad{
     display: flex;
+    /* justify-content: space-between; */
+    width: 98%;
+    margin-top: 5px;
+    margin-left: 6px;
+
+    /*display: flex;
     justify-content: space-between;
     width: 86%;
-    margin-top: 11px;
+    margin-top: 11px;*/
 }
 .sky{
     position: absolute;
@@ -20,4 +26,7 @@
     width: 96%;
     margin-top: 30px;
     object-fit: cover;
+}
+.boos .youpi{
+    cursor: pointer;
 }
